@@ -1,0 +1,11 @@
+1. npm create vite@latest client :  for client folder
+
+
+2. npm install -D tailwindcss postcss autoprefixer : for installing tailwind css for vite   and react
+
+3. npx tailwindcss init -p : for initailizing the config file
+
+  {point 2 and 3 failed, so installed tailwind the old way}
+
+
+  

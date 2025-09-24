@@ -1,0 +1,7 @@
+1. made routes using 'BrowerRouter' and set up 'routes' and 'route' also made the pagesfolder and understood its importance(sepreation of user built modules)
+
+
+2. also made folder 'components' for storing the components that will we will use on all pages like "header"
+
+
+3. used "Link" component in 'Header' component and linked the pages
