@@ -1,0 +1,4 @@
+1. made routes for login with hashed using bcryptjs rather than bcrypt. (further need of indepth reading is needed )  
+
+2 made the error handling function and middlewawre still unsure of how they cordinate.  (more understand of cordinatation is required in free time). 
+
