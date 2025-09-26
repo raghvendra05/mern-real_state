@@ -1,0 +1,5 @@
+1. make the form in "signup" using onchange event handler on all the input fields and onsubmit on the actual form tag ,also using useState
+
+2. also solved the problem of global error handler in auth.controller.js
+
+3.also use 'useNavigate' to go to sign in after signup shows no error (from "reactrouterdom")
