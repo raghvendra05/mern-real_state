@@ -72,7 +72,7 @@ export const signin = async (req, res, next) => {
 
     const validUser = await User.findOne({ email })
 
-    console.log(validUser, "valid user");
+    // console.log(validUser, "valid user");
 
 
     if (!validUser) return next(errorHandler(404, 'user not found during signin process'))
@@ -95,7 +95,11 @@ export const signin = async (req, res, next) => {
     res
       .cookie('access_token', token, { httpOnly: true })
       .status(200)
-      .json(rest)
+      .json(
+        {data:rest,
+        success:true,
+        message:"signed in succesfully"
+  })
 
   } catch (error) {
     // res.json({status:500,message:error.message})
