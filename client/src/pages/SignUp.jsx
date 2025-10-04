@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link ,useNavigate} from "react-router-dom"
+import { OAuth } from '../components/OAuth'
 // use navigate will help after 'signup' we will go to 'signin'
 
 const SignUp = () => {
@@ -72,6 +73,7 @@ const SignUp = () => {
         <button disabled={loading} className='bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-90 disabled:opacity-50'>
           {loading ? "loading..." : "sign Up"}
         </button>
+        <OAuth/>
 
       </form>
 
